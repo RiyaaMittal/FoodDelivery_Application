@@ -1,0 +1,30 @@
+.place-order{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: start;
+    margin-top: 50px;
+}
+.place-order-left{
+    width: 40%;
+
+}
+.place-order-left input{
+    width: 100%;
+    border: 1px solid #c5c5c5;
+    border-radius: 4px;
+    outline-color: tomato;
+    margin-bottom: 7px;
+    padding: 5px;
+    font-size: 10px;
+}
+.place-order-left .title{
+    margin-bottom: 10px;
+}
+.multi-fields{
+    display: flex;
+    gap: 5px;
+}
+.place-order-right{
+    width: 40%;
+}

@@ -1,0 +1,32 @@
+.sidebar{
+    width: 20%;
+    min-height: 100vh;
+    border: 1px solid #a9a9a9;
+    border-top: 0;
+}
+.icons{
+    height: 25px;
+    width: 27px;
+}
+.sidebar-options{
+    padding-top: 20px;
+    padding-left: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.sidebar-option{
+    display: flex;
+    align-items: center;
+    border: 1px solid #a9a9a9;
+    border-right: 0;
+    padding: 3px 8px;
+    border-radius: 3px 0px 0px 3px;
+    gap: 10px;
+    cursor: pointer;
+    font-size: 10px;
+}
+.sidebar-options .active{/*navlink provides defualy class active to element when ever it is in acitve/use*/
+    background-color: #fff0ed;
+    border-color: tomato;
+}

@@ -1,0 +1,9 @@
+.food-display{
+    margin-top: 10px;
+}
+.food-display-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap:10px;
+}

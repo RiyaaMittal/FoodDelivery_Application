@@ -1,0 +1,30 @@
+.list-table-format img{
+    height: 35px;
+    width: 36px;
+    object-fit: contain;
+}
+.list-table-format b,p,img{
+    /* width: 60px; */
+}
+.list-table-format{
+    /* width: 50px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 5px;
+    /* display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 0.5fr;
+    align-items: center;
+    gap: 10px;
+    padding: 2px 2px;
+    border: 1px solid #cacaca; */
+}
+hr{
+    height: 1px;
+    border: none;
+    background-color: #cacaca;
+}
+.list-table-format .title{
+    color: #f9f9f9;
+}
